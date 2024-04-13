@@ -269,8 +269,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\loran-project\KeyEngine\KeyEngineCore\src\KeyEngineCore\Utils\test.cpp" />
-    <ClInclude Include="D:\loran-project\KeyEngine\KeyEngineCore\includes\KeyEngineCore\Utils\test.hpp" />
+    <ClInclude Include="D:\loran-project\KeyEngine\KeyEngineCore\includes\KeyEngineCore\Application.hpp" />
+    <ClCompile Include="D:\loran-project\KeyEngine\KeyEngineCore\src\KeyEngineCore\Application.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\loran-project\KeyEngine\build\ZERO_CHECK.vcxproj">
