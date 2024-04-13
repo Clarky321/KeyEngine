@@ -1,0 +1,5 @@
+namespace KeyEngine {
+
+	void sayHello();
+
+}
