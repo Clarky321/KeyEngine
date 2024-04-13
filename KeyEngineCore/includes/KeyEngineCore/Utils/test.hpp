@@ -1,5 +1,5 @@
 namespace KeyEngine {
 
-	void sayHello();
+	int TestGLFW();
 
 }

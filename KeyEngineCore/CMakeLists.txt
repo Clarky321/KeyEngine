@@ -15,3 +15,8 @@ target_include_directories(${ENGINE_PROJECT_NAME} PUBLIC includes)
 
 # Установка стандарта C++ для компиляции
 target_compile_features(${ENGINE_PROJECT_NAME} PUBLIC cxx_std_17)
+
+# Добавление подмодуля GLFW и его сборка
+add_subdirectory(../external/glfw ${CMAKE_CURRENT_BINARY_DIR}/glfw)
+# Линковка с библиотекой GLFW
+target_link_libraries(${ENGINE_PROJECT_NAME} PRIVATE glfw)

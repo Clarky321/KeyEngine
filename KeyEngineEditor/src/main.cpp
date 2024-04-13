@@ -6,7 +6,7 @@ int main()
 {
 	std::cout << "Hello from Key Engine Editor" << std::endl;
 
-	KeyEngine::sayHello();
+	KeyEngine::TestGLFW();
 
 	std::cin.get();
 }
