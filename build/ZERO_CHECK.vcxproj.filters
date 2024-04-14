@@ -1,60 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\loran-project\KeyEngine\build\CMakeFiles\849f26f5ddaa1ee9aa4d002b6d6301b3\generate.stamp.rule">
+    <CustomBuild Include="C:\loran-project\KeyEngine\build\CMakeFiles\55fc072ce7ad3dd5ecbe07e04eec9f5e\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\loran-project\KeyEngine\KeyEngineCore\CMakeLists.txt">
-      <Filter>Buildsystem Input Files\KeyEngineCore</Filter>
-    </None>
-    <None Include="D:\loran-project\KeyEngine\KeyEngineEditor\CMakeLists.txt">
-      <Filter>Buildsystem Input Files\KeyEngineEditor</Filter>
-    </None>
-    <None Include="D:\loran-project\KeyEngine\external\glfw\CMake\cmake_uninstall.cmake.in">
-      <Filter>Buildsystem Input Files\external\glfw\CMake</Filter>
-    </None>
-    <None Include="D:\loran-project\KeyEngine\external\glfw\CMake\glfw3.pc.in">
-      <Filter>Buildsystem Input Files\external\glfw\CMake</Filter>
-    </None>
-    <None Include="D:\loran-project\KeyEngine\external\glfw\CMake\glfw3Config.cmake.in">
-      <Filter>Buildsystem Input Files\external\glfw\CMake</Filter>
-    </None>
-    <None Include="D:\loran-project\KeyEngine\external\glfw\CMakeLists.txt">
-      <Filter>Buildsystem Input Files\external\glfw</Filter>
-    </None>
-    <None Include="D:\loran-project\KeyEngine\external\glfw\docs\CMakeLists.txt">
-      <Filter>Buildsystem Input Files\external\glfw\docs</Filter>
-    </None>
-    <None Include="D:\loran-project\KeyEngine\external\glfw\src\CMakeLists.txt">
-      <Filter>Buildsystem Input Files\external\glfw\src</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C4A3693A-4F64-37A7-B5F5-FC3D1405F3C5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{D3EEB5F3-AC21-3156-8218-2244310801EC}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Buildsystem Input Files\KeyEngineCore">
-      <UniqueIdentifier>{478EDEA5-ED69-3308-B37C-B683EDB79406}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Buildsystem Input Files\KeyEngineEditor">
-      <UniqueIdentifier>{65A331FD-1B33-3539-8622-4F697B4327FA}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Buildsystem Input Files\external\glfw">
-      <UniqueIdentifier>{C5F55847-BABA-3186-9C3E-C47AF4DA37D4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Buildsystem Input Files\external\glfw\CMake">
-      <UniqueIdentifier>{187C52B3-3777-3582-B37A-B272BE84D63E}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Buildsystem Input Files\external\glfw\docs">
-      <UniqueIdentifier>{A4CF09C7-C0AE-3BD3-9629-4E73CB483BF5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Buildsystem Input Files\external\glfw\src">
-      <UniqueIdentifier>{865EC55C-72D0-3A04-94DD-5E09406AF0A3}</UniqueIdentifier>
+      <UniqueIdentifier>{E752FD05-84E3-3714-A41A-4730564F1E41}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

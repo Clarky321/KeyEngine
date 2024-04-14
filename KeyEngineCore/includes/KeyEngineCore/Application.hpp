@@ -7,6 +7,8 @@ namespace KeyEngine {
 	// Класс представляет базовое приложение для использования в движке
 	class Application
 	{
+	public:
+
 		// Конструктор по умолчанию
 		Application();
 

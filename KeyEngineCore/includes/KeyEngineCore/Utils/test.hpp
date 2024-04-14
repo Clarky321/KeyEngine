@@ -1,5 +1,0 @@
-namespace KeyEngine {
-
-	int TestGLFW();
-
-}

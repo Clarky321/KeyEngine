@@ -6,6 +6,7 @@ set(ENGINE_PROJECT_NAME KeyEngineCore)
 
 set(ENGINE_PUBLIC_INCLUDES
 	includes/KeyEngineCore/Application.hpp
+	includes/KeyEngineCore/Log.hpp
 )
 
 set(ENGINE_PRIVATE_SOURCES
@@ -28,3 +29,8 @@ target_compile_features(${ENGINE_PROJECT_NAME} PUBLIC cxx_std_17)
 add_subdirectory(../external/glfw ${CMAKE_CURRENT_BINARY_DIR}/glfw)
 # Линковка с библиотекой GLFW
 target_link_libraries(${ENGINE_PROJECT_NAME} PRIVATE glfw)
+
+# Добавление подмодуля SPDLOG и его сборка
+add_subdirectory(../external/spdlog ${CMAKE_CURRENT_BINARY_DIR}/spdlog)
+# Линковка с библиотекой SPDLOG
+target_link_libraries(${ENGINE_PROJECT_NAME} PRIVATE spdlog)
