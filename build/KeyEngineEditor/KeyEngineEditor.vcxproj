@@ -116,7 +116,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\KeyEngineCore\Debug\KeyEngineCore.lib;..\KeyEngineCore\glfw\src\Debug\glfw3.lib;..\KeyEngineCore\spdlog\Debug\spdlogd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\KeyEngineCore\Debug\KeyEngineCore.lib;..\KeyEngineCore\glfw\src\Debug\glfw3.lib;..\KeyEngineCore\spdlog\Debug\spdlogd.lib;..\KeyEngineCore\glad\Debug\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -161,7 +161,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\KeyEngineCore\Release\KeyEngineCore.lib;..\KeyEngineCore\glfw\src\Release\glfw3.lib;..\KeyEngineCore\spdlog\Release\spdlog.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\KeyEngineCore\Release\KeyEngineCore.lib;..\KeyEngineCore\glfw\src\Release\glfw3.lib;..\KeyEngineCore\spdlog\Release\spdlog.lib;..\KeyEngineCore\glad\Release\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -206,7 +206,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\KeyEngineCore\MinSizeRel\KeyEngineCore.lib;..\KeyEngineCore\glfw\src\MinSizeRel\glfw3.lib;..\KeyEngineCore\spdlog\MinSizeRel\spdlog.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\KeyEngineCore\MinSizeRel\KeyEngineCore.lib;..\KeyEngineCore\glfw\src\MinSizeRel\glfw3.lib;..\KeyEngineCore\spdlog\MinSizeRel\spdlog.lib;..\KeyEngineCore\glad\MinSizeRel\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -250,7 +250,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\KeyEngineCore\RelWithDebInfo\KeyEngineCore.lib;..\KeyEngineCore\glfw\src\RelWithDebInfo\glfw3.lib;..\KeyEngineCore\spdlog\RelWithDebInfo\spdlog.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\KeyEngineCore\RelWithDebInfo\KeyEngineCore.lib;..\KeyEngineCore\glfw\src\RelWithDebInfo\glfw3.lib;..\KeyEngineCore\spdlog\RelWithDebInfo\spdlog.lib;..\KeyEngineCore\glad\RelWithDebInfo\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -333,6 +333,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\loran-project\KeyEngine\build\KeyEngineCore\KeyEngineCore.vcxproj">
       <Project>{A2C045F5-65DE-3AD4-BD35-4F9923288D9E}</Project>
       <Name>KeyEngineCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\loran-project\KeyEngine\build\KeyEngineCore\glad\glad.vcxproj">
+      <Project>{59B30AC7-CA61-3088-A4D3-7AB1B656383D}</Project>
+      <Name>glad</Name>
     </ProjectReference>
     <ProjectReference Include="C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\glfw.vcxproj">
       <Project>{37A35184-E0F4-357B-81F6-D7BE747F48ED}</Project>

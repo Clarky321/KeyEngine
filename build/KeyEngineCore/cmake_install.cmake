@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/loran-project/KeyEngine/build/KeyEngineCore/glfw/cmake_install.cmake")
   include("C:/loran-project/KeyEngine/build/KeyEngineCore/spdlog/cmake_install.cmake")
+  include("C:/loran-project/KeyEngine/build/KeyEngineCore/glad/cmake_install.cmake")
 
 endif()
 
