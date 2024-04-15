@@ -4,12 +4,18 @@
     <ClCompile Include="C:\loran-project\KeyEngine\KeyEngineCore\src\KeyEngineCore\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\loran-project\KeyEngine\KeyEngineCore\src\KeyEngineCore\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\loran-project\KeyEngine\KeyEngineCore\includes\KeyEngineCore\Application.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\loran-project\KeyEngine\KeyEngineCore\includes\KeyEngineCore\Log.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\loran-project\KeyEngine\KeyEngineCore\src\KeyEngineCore\Window.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

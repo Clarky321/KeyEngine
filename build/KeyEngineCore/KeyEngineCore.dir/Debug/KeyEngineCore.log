@@ -1,6 +1,6 @@
-﻿  Application.cpp
+﻿  Window.cpp
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(490,51): warning C4996: 'stdext::checked_array_iterator<T*>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -9,7 +9,7 @@ C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(4
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3): warning C4996:         [
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3):
   контекст создания экземпляра шаблона (сначала самый старый)
   	C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(2807,34):
@@ -24,7 +24,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31):
@@ -57,14 +57,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,22): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,22): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,22): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40):
@@ -93,14 +93,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,31): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -109,14 +109,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,31): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -125,14 +125,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,31): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -141,14 +141,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,31): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -157,28 +157,28 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,31): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996: 'stdext::checked_array_iterator<T *>::_Verify_offset': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996: 'stdext::checked_array_iterator<T *>::_Unwrapped': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\core.h(842,24): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\core.h(842,24): warning C4996:         with
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\core.h(842,24): warning C4996:         [
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\core.h(842,24): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\core.h(842,24): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\core.h(842,24):
   контекст создания экземпляра шаблона (сначала самый старый)
   	C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(2714,47):
@@ -219,7 +219,7 @@ C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(4
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3): warning C4996:         [
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3): warning C4996:             T=wchar_t
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3):
   контекст создания экземпляра шаблона (сначала самый старый)
   	C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(1276,32):
@@ -238,7 +238,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31):
@@ -271,14 +271,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,22): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,22): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,22): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40):
@@ -307,14 +307,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,31): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -323,14 +323,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,31): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -339,14 +339,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,31): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -355,14 +355,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,31): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -371,28 +371,28 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,31): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996: 'stdext::checked_array_iterator<T *>::_Verify_offset': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996: 'stdext::checked_array_iterator<T *>::_Unwrapped': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996: 'stdext::checked_array_iterator<T *>::_Seek_to': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:             T=fmt::v9::detail::bigint::bigit
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12):
   контекст создания экземпляра шаблона (сначала самый старый)
   	C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(2807,10):
@@ -417,7 +417,7 @@ C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(4
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3): warning C4996:         [
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3): warning C4996:             T=char
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3):
   контекст создания экземпляра шаблона (сначала самый старый)
   	C:\loran-project\KeyEngine\external\spdlog\include\spdlog\common.h(347,34):
@@ -436,7 +436,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31):
@@ -469,14 +469,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,22): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,22): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,22): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40):
@@ -505,14 +505,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,31): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -521,14 +521,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,31): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -537,14 +537,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,31): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -553,14 +553,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,31): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -569,28 +569,28 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,31): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996: 'stdext::checked_array_iterator<T *>::_Verify_offset': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996: 'stdext::checked_array_iterator<T *>::_Unwrapped': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996: 'stdext::checked_array_iterator<T *>::_Seek_to': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:             T=wchar_t
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12):
   контекст создания экземпляра шаблона (сначала самый старый)
   	C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(925,8):
@@ -615,7 +615,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:             T=char
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12):
   контекст создания экземпляра шаблона (сначала самый старый)
   	C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(778,10):
@@ -643,7 +643,7 @@ C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(4
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3): warning C4996:         [
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3): warning C4996:             T=int
 C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(493,3):
   контекст создания экземпляра шаблона (сначала самый старый)
   	C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(4078,5):
@@ -717,7 +717,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,31):
@@ -750,14 +750,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,22): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,22): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1151,22): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,40):
@@ -786,14 +786,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,31): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(494,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -802,14 +802,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,31): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(495,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -818,14 +818,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,31): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(496,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -834,14 +834,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,31): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(497,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,40): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator(1470,35):
    см. объявление "stdext::checked_array_iterator"
   
@@ -850,28 +850,28 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,31): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,31): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp(498,31): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996: 'stdext::checked_array_iterator<T *>::_Verify_offset': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1265,12): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996: 'stdext::checked_array_iterator<T *>::_Unwrapped': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1266,41): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996: 'stdext::checked_array_iterator<T *>::_Seek_to': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:         [
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:             T=int
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12): warning C4996:         ]
-  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Application.cpp")
+  (компиляция исходного файла "../../KeyEngineCore/src/KeyEngineCore/Window.cpp")
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1287,12):
   контекст создания экземпляра шаблона (сначала самый старый)
   	C:\loran-project\KeyEngine\external\spdlog\include\spdlog\fmt\bundled\format.h(925,8):

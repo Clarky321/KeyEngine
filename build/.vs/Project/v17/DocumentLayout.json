@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\loran-project\\KeyEngine\\build\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2C045F5-65DE-3AD4-BD35-4F9923288D9E}|KeyEngineCore\\KeyEngineCore.vcxproj|C:\\loran-project\\KeyEngine\\KeyEngineCore\\src\\KeyEngineCore\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2C045F5-65DE-3AD4-BD35-4F9923288D9E}|KeyEngineCore\\KeyEngineCore.vcxproj|C:\\loran-project\\KeyEngine\\KeyEngineCore\\src\\KeyEngineCore\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C045F5-65DE-3AD4-BD35-4F9923288D9E}|KeyEngineCore\\KeyEngineCore.vcxproj|C:\\loran-project\\KeyEngine\\KeyEngineCore\\src\\KeyEngineCore\\Window.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2C045F5-65DE-3AD4-BD35-4F9923288D9E}|KeyEngineCore\\KeyEngineCore.vcxproj|C:\\loran-project\\KeyEngine\\KeyEngineCore\\includes\\KeyEngineCore\\Application.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2C045F5-65DE-3AD4-BD35-4F9923288D9E}|KeyEngineCore\\KeyEngineCore.vcxproj|C:\\loran-project\\KeyEngine\\KeyEngineCore\\includes\\KeyEngineCore\\Log.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0E48A6E-8450-3214-A121-A98E7657C188}|KeyEngineEditor\\KeyEngineEditor.vcxproj|C:\\loran-project\\KeyEngine\\KeyEngineEditor\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2C045F5-65DE-3AD4-BD35-4F9923288D9E}|KeyEngineCore\\KeyEngineCore.vcxproj|C:\\loran-project\\KeyEngine\\KeyEngineCore\\src\\KeyEngineCore\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +34,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Application.cpp",
               "DocumentMoniker": "C:\\loran-project\\KeyEngine\\KeyEngineCore\\src\\KeyEngineCore\\Application.cpp",
               "RelativeDocumentMoniker": "..\\KeyEngineCore\\src\\KeyEngineCore\\Application.cpp",
               "ToolTip": "C:\\loran-project\\KeyEngine\\KeyEngineCore\\src\\KeyEngineCore\\Application.cpp",
               "RelativeToolTip": "..\\KeyEngineCore\\src\\KeyEngineCore\\Application.cpp",
-              "ViewState": "AQIAACwAAAAAAAAAAAAqwDoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-14T11:53:37.568Z",
+              "WhenOpened": "2024-04-15T12:04:37.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Log.hpp",
-              "DocumentMoniker": "C:\\loran-project\\KeyEngine\\KeyEngineCore\\includes\\KeyEngineCore\\Log.hpp",
-              "RelativeDocumentMoniker": "..\\KeyEngineCore\\includes\\KeyEngineCore\\Log.hpp",
-              "ToolTip": "C:\\loran-project\\KeyEngine\\KeyEngineCore\\includes\\KeyEngineCore\\Log.hpp",
-              "RelativeToolTip": "..\\KeyEngineCore\\includes\\KeyEngineCore\\Log.hpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBIAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-14T09:13:44.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Application.hpp",
               "DocumentMoniker": "C:\\loran-project\\KeyEngine\\KeyEngineCore\\includes\\KeyEngineCore\\Application.hpp",
               "RelativeDocumentMoniker": "..\\KeyEngineCore\\includes\\KeyEngineCore\\Application.hpp",
               "ToolTip": "C:\\loran-project\\KeyEngine\\KeyEngineCore\\includes\\KeyEngineCore\\Application.hpp",
               "RelativeToolTip": "..\\KeyEngineCore\\includes\\KeyEngineCore\\Application.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-14T09:13:41.988Z",
+              "WhenOpened": "2024-04-15T11:51:50.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\loran-project\\KeyEngine\\KeyEngineEditor\\src\\main.cpp",
-              "RelativeDocumentMoniker": "..\\KeyEngineEditor\\src\\main.cpp",
-              "ToolTip": "C:\\loran-project\\KeyEngine\\KeyEngineEditor\\src\\main.cpp",
-              "RelativeToolTip": "..\\KeyEngineEditor\\src\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Window.cpp",
+              "DocumentMoniker": "C:\\loran-project\\KeyEngine\\KeyEngineCore\\src\\KeyEngineCore\\Window.cpp",
+              "RelativeDocumentMoniker": "..\\KeyEngineCore\\src\\KeyEngineCore\\Window.cpp",
+              "ToolTip": "C:\\loran-project\\KeyEngine\\KeyEngineCore\\src\\KeyEngineCore\\Window.cpp",
+              "RelativeToolTip": "..\\KeyEngineCore\\src\\KeyEngineCore\\Window.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-14T09:13:21.592Z"
+              "WhenOpened": "2024-04-15T11:58:19.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Window.hpp",
+              "DocumentMoniker": "C:\\loran-project\\KeyEngine\\KeyEngineCore\\src\\KeyEngineCore\\Window.hpp",
+              "RelativeDocumentMoniker": "..\\KeyEngineCore\\src\\KeyEngineCore\\Window.hpp",
+              "ToolTip": "C:\\loran-project\\KeyEngine\\KeyEngineCore\\src\\KeyEngineCore\\Window.hpp",
+              "RelativeToolTip": "..\\KeyEngineCore\\src\\KeyEngineCore\\Window.hpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAApwCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-15T11:51:48.839Z",
+              "EditorCaption": ""
             }
           ]
         }

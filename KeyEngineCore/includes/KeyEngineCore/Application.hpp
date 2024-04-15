@@ -1,6 +1,8 @@
 // Защита от множественного включения заголовочного файла
 #pragma once
 
+#include <memory>
+
 // Объявление класса Application в пространстве имен KeyEngine
 namespace KeyEngine {
 
@@ -26,6 +28,9 @@ namespace KeyEngine {
 
 		// Виртуальный метод для обновления состояния приложения в каждом кадре
 		virtual void on_update() {}
+
+	private:
+		std::unique_ptr<class Window> m_pWindow;
 	};
 
 }
