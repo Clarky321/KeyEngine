@@ -1,6 +1,8 @@
 // Защита от множественного включения заголовочного файла
 #pragma once
 
+#include "KeyEngineCore\Event.hpp"
+
 #include <memory>
 
 // Объявление класса Application в пространстве имен KeyEngine
@@ -31,6 +33,8 @@ namespace KeyEngine {
 
 	private:
 		std::unique_ptr<class Window> m_pWindow;
-	};
 
+		EventDispatcher m_event_dispatcher;
+		bool m_bCloseWindow = false;
+	};
 }

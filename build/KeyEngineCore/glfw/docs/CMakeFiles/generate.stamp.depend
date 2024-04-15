@@ -1,5 +1,5 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.29/Modules/FindDoxygen.cmake
-C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
-C:/loran-project/KeyEngine/external/glfw/docs/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindDoxygen.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake
+D:/loran-project/KeyEngine/external/glfw/docs/CMakeLists.txt

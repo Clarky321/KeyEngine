@@ -1,7 +1,10 @@
 // Защита от множественного включения заголовочного файла
 #pragma once
 
+#include "KeyEngineCore\Event.hpp"
+
 #include <string>
+#include <functional>
 
 struct GLFWwindow;
 
@@ -12,6 +15,8 @@ namespace KeyEngine {
 	class Window
 	{
 	public:
+
+		using EventCallbackFn = std::function<void(BaseEvent&)>;
 
 		// Конструктор по умолчанию
 		Window(std::string title, const unsigned int width, const unsigned int height);
@@ -28,19 +33,31 @@ namespace KeyEngine {
 		// метод для обновления состояния приложения в каждом кадре
 		void on_update();
 
-		unsigned int get_width() const { return m_width; }
-		unsigned int get_height() const { return m_height; }
+		unsigned int get_width() const { return m_data.width; }
+		unsigned int get_height() const { return m_data.height; }
+
+		void set_event_callback(const EventCallbackFn& callback)
+		{
+			m_data.eventCallbackFn = callback;
+		}
 
 	private:
+
+		struct WindowData
+		{
+			std::string title;
+			unsigned int width;
+			unsigned int height;
+
+			EventCallbackFn eventCallbackFn;
+		};
 
 		int init();
 		void shutdown();
 
-		GLFWwindow* m_pWindow;
+		GLFWwindow* m_pWindow = nullptr;
 
-		std::string m_title;
-		unsigned int m_width;
-		unsigned int m_height;
+		WindowData m_data;
 	};
 
 }

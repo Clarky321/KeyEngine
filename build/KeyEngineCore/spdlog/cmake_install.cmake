@@ -1,4 +1,4 @@
-# Install script for directory: C:/loran-project/KeyEngine/external/spdlog
+# Install script for directory: D:/loran-project/KeyEngine/external/spdlog
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

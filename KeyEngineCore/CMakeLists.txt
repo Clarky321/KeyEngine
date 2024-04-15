@@ -7,6 +7,7 @@ set(ENGINE_PROJECT_NAME KeyEngineCore)
 set(ENGINE_PUBLIC_INCLUDES
 	includes/KeyEngineCore/Application.hpp
 	includes/KeyEngineCore/Log.hpp
+	includes/KeyEngineCore/Event.hpp
 )
 
 set(ENGINE_PRIVATE_INCLUDES

@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\loran-project\KeyEngine\build\CMakeFiles\d5e59393f7d2da069cdf66fdb2bb5709\update_mappings.rule">
+    <CustomBuild Include="D:\loran-project\KeyEngine\build\CMakeFiles\8e003ee1c969246fab6bcc567e1417ab\update_mappings.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\loran-project\KeyEngine\external\glfw\src\CMakeLists.txt" />
+    <CustomBuild Include="D:\loran-project\KeyEngine\external\glfw\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\loran-project\KeyEngine\external\glfw\src\mappings.h.in">
+    <None Include="D:\loran-project\KeyEngine\external\glfw\src\mappings.h.in">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="C:\loran-project\KeyEngine\external\glfw\CMake\GenerateMappings.cmake" />
-    <None Include="C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\CMakeFiles\update_mappings" />
+    <None Include="D:\loran-project\KeyEngine\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\CMakeFiles\update_mappings" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{E752FD05-84E3-3714-A41A-4730564F1E41}</UniqueIdentifier>
+      <UniqueIdentifier>{C4A3693A-4F64-37A7-B5F5-FC3D1405F3C5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{7029B152-220C-3D91-8FA3-7A88D2274E47}</UniqueIdentifier>
+      <UniqueIdentifier>{D3EEB5F3-AC21-3156-8218-2244310801EC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

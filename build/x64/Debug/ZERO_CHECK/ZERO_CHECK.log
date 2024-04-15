@@ -1,7 +1,7 @@
 ﻿  1>Checking Build System
-  CMake is re-running because C:/loran-project/KeyEngine/build/KeyEngineCore/CMakeFiles/generate.stamp is out-of-date.
-    the file 'C:/loran-project/KeyEngine/KeyEngineCore/CMakeLists.txt'
-    is newer than 'C:/loran-project/KeyEngine/build/KeyEngineCore/CMakeFiles/generate.stamp.depend'
+  CMake is re-running because D:/loran-project/KeyEngine/build/KeyEngineCore/CMakeFiles/generate.stamp is out-of-date.
+    the file 'D:/loran-project/KeyEngine/KeyEngineCore/CMakeLists.txt'
+    is newer than 'D:/loran-project/KeyEngine/build/KeyEngineCore/CMakeFiles/generate.stamp.depend'
     result='-1'
   CMake Warning (dev) in CMakeLists.txt:
     No project() command is present.  The top-level CMakeLists.txt file must
@@ -30,4 +30,4 @@
   -- Build type: 
   -- Configuring done (0.1s)
   -- Generating done (0.5s)
-  -- Build files have been written to: C:/loran-project/KeyEngine/build
+  -- Build files have been written to: D:/loran-project/KeyEngine/build

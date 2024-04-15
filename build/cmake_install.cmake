@@ -1,4 +1,4 @@
-# Install script for directory: C:/loran-project/KeyEngine
+# Install script for directory: D:/loran-project/KeyEngine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/loran-project/KeyEngine/build/KeyEngineCore/cmake_install.cmake")
-  include("C:/loran-project/KeyEngine/build/KeyEngineEditor/cmake_install.cmake")
+  include("D:/loran-project/KeyEngine/build/KeyEngineCore/cmake_install.cmake")
+  include("D:/loran-project/KeyEngine/build/KeyEngineEditor/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/loran-project/KeyEngine/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/loran-project/KeyEngine/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

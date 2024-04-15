@@ -17,7 +17,7 @@ int main()
 {
 	auto myApp = std::make_unique<MyApp>();
 
-	int returnCode = myApp->start(1024, 768, "My first App");
+	int returnCode = myApp->start(1024, 768, "KeyProject");
 
 	std::cin.get();
 

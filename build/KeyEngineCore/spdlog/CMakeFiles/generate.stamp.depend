@@ -1,11 +1,11 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake
-C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake
-C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake
-C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
-C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake
-C:/Program Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
-C:/loran-project/KeyEngine/external/spdlog/CMakeLists.txt
-C:/loran-project/KeyEngine/external/spdlog/cmake/ide.cmake
-C:/loran-project/KeyEngine/external/spdlog/cmake/utils.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/GNUInstallDirs.cmake
+D:/loran-project/KeyEngine/external/spdlog/CMakeLists.txt
+D:/loran-project/KeyEngine/external/spdlog/cmake/ide.cmake
+D:/loran-project/KeyEngine/external/spdlog/cmake/utils.cmake

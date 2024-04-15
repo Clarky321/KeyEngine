@@ -1,4 +1,4 @@
-﻿  Building Custom Rule C:/loran-project/KeyEngine/external/spdlog/CMakeLists.txt
+﻿  Building Custom Rule D:/loran-project/KeyEngine/external/spdlog/CMakeLists.txt
   spdlog.cpp
   stdout_sinks.cpp
   color_sinks.cpp
@@ -6,4 +6,4 @@
   async.cpp
   cfg.cpp
   bundled_fmtlib_format.cpp
-  spdlog.vcxproj -> C:\loran-project\KeyEngine\build\KeyEngineCore\spdlog\Debug\spdlogd.lib
+  spdlog.vcxproj -> D:\loran-project\KeyEngine\build\KeyEngineCore\spdlog\Debug\spdlogd.lib
