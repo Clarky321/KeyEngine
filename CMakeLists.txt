@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.12)
 
 # Определение названия проекта
 set(PROJECT_NAME KeyEngine)
+project(${PROJECT_NAME})
 
 # Добавления поддиректории для модуля KeyEngineCore(ядро движка)
 add_subdirectory(KeyEngineCore)

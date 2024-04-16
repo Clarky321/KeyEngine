@@ -11,19 +11,29 @@ set(ENGINE_PUBLIC_INCLUDES
 )
 
 set(ENGINE_PRIVATE_INCLUDES
-	src/KeyEngineCore/Window.hpp
+	src/KeyEngineCore/Window/Window.hpp
+	src/KeyEngineCore/Rendering/OpenGL/ShaderProgram.hpp
 )
 
 set(ENGINE_PRIVATE_SOURCES
 	src/KeyEngineCore/Application.cpp
-	src/KeyEngineCore/Window.cpp
+	src/KeyEngineCore/Window/Window.cpp
+	src/KeyEngineCore/Rendering/OpenGL/ShaderProgram.cpp
+)
+
+set(ENGINE_ALL_SOURCE
+	${ENGINE_PUBLIC_INCLUDES}
+	${ENGINE_PRIVATE_INCLUDES}
+	${ENGINE_PRIVATE_SOURCES}
 )
 
 # Создание статической библиотеки с названием KeyEngineCore
 add_library(${ENGINE_PROJECT_NAME} STATIC
-	${ENGINE_PUBLIC_INCLUDES}
-	${ENGINE_PRIVATE_INCLUDES}
-	${ENGINE_PRIVATE_SOURCES}
+	${ENGINE_ALL_SOURCE}
+)
+
+source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES
+	${ENGINE_ALL_SOURCE}
 )
 
 # Добавление пути к заголовочным файлам KeyEngineCore для внешних пользователей

@@ -1,6 +1,6 @@
 #include "KeyEngineCore\Application.hpp"
 #include "KeyEngineCore\Log.hpp"
-#include "KeyEngineCore\Window.hpp"
+#include "KeyEngineCore\Window\Window.hpp"
 #include "KeyEngineCore\Event.hpp"
 
 #include <iostream>
