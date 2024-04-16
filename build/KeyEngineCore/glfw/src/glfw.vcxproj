@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{916A5B1D-72A5-3742-A411-FB212E0A0F63}</ProjectGuid>
+    <ProjectGuid>{37A35184-E0F4-357B-81F6-D7BE747F48ED}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\external\glfw\include;D:\loran-project\KeyEngine\external\glfw\src;D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\external\glfw\include;C:\loran-project\KeyEngine\external\glfw\src;C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -92,13 +92,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\external\glfw\include;D:\loran-project\KeyEngine\external\glfw\src;D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\external\glfw\include;C:\loran-project\KeyEngine\external\glfw\src;C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\external\glfw\include;D:\loran-project\KeyEngine\external\glfw\src;D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\external\glfw\include;C:\loran-project\KeyEngine\external\glfw\src;C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,7 +112,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\external\glfw\include;D:\loran-project\KeyEngine\external\glfw\src;D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\external\glfw\include;C:\loran-project\KeyEngine\external\glfw\src;C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -125,13 +126,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\external\glfw\include;D:\loran-project\KeyEngine\external\glfw\src;D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\external\glfw\include;C:\loran-project\KeyEngine\external\glfw\src;C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\external\glfw\include;D:\loran-project\KeyEngine\external\glfw\src;D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\external\glfw\include;C:\loran-project\KeyEngine\external\glfw\src;C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +146,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\external\glfw\include;D:\loran-project\KeyEngine\external\glfw\src;D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\external\glfw\include;C:\loran-project\KeyEngine\external\glfw\src;C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -158,13 +160,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\external\glfw\include;D:\loran-project\KeyEngine\external\glfw\src;D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\external\glfw\include;C:\loran-project\KeyEngine\external\glfw\src;C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\external\glfw\include;D:\loran-project\KeyEngine\external\glfw\src;D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\external\glfw\include;C:\loran-project\KeyEngine\external\glfw\src;C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +180,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\external\glfw\include;D:\loran-project\KeyEngine\external\glfw\src;D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\external\glfw\include;C:\loran-project\KeyEngine\external\glfw\src;C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -190,13 +193,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\external\glfw\include;D:\loran-project\KeyEngine\external\glfw\src;D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\external\glfw\include;C:\loran-project\KeyEngine\external\glfw\src;C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\external\glfw\include;D:\loran-project\KeyEngine\external\glfw\src;D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\external\glfw\include;C:\loran-project\KeyEngine\external\glfw\src;C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,11 +212,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\loran-project\KeyEngine\external\glfw\src\CMakeLists.txt">
+    <CustomBuild Include="C:\loran-project\KeyEngine\external\glfw\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/loran-project/KeyEngine/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/loran-project/KeyEngine/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/loran-project/KeyEngine -BD:/loran-project/KeyEngine/build --check-stamp-file D:/loran-project/KeyEngine/build/KeyEngineCore/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/loran-project/KeyEngine -BC:/loran-project/KeyEngine/build --check-stamp-file C:/loran-project/KeyEngine/build/KeyEngineCore/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,12 +224,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\loran-project\KeyEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\loran-project\KeyEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/loran-project/KeyEngine/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/loran-project/KeyEngine/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/loran-project/KeyEngine -BD:/loran-project/KeyEngine/build --check-stamp-file D:/loran-project/KeyEngine/build/KeyEngineCore/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/loran-project/KeyEngine -BC:/loran-project/KeyEngine/build --check-stamp-file C:/loran-project/KeyEngine/build/KeyEngineCore/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -233,12 +237,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\loran-project\KeyEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\loran-project\KeyEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/loran-project/KeyEngine/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/loran-project/KeyEngine/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/loran-project/KeyEngine -BD:/loran-project/KeyEngine/build --check-stamp-file D:/loran-project/KeyEngine/build/KeyEngineCore/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/loran-project/KeyEngine -BC:/loran-project/KeyEngine/build --check-stamp-file C:/loran-project/KeyEngine/build/KeyEngineCore/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -246,12 +250,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\loran-project\KeyEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\loran-project\KeyEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/loran-project/KeyEngine/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/loran-project/KeyEngine/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/loran-project/KeyEngine -BD:/loran-project/KeyEngine/build --check-stamp-file D:/loran-project/KeyEngine/build/KeyEngineCore/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/loran-project/KeyEngine -BC:/loran-project/KeyEngine/build --check-stamp-file C:/loran-project/KeyEngine/build/KeyEngineCore/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -259,48 +263,48 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\loran-project\KeyEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\loran-project\KeyEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\loran-project\KeyEngine\external\glfw\include\GLFW\glfw3.h" />
-    <ClInclude Include="D:\loran-project\KeyEngine\external\glfw\include\GLFW\glfw3native.h" />
-    <ClInclude Include="D:\loran-project\KeyEngine\external\glfw\src\internal.h" />
-    <ClInclude Include="D:\loran-project\KeyEngine\external\glfw\src\platform.h" />
-    <ClInclude Include="D:\loran-project\KeyEngine\external\glfw\src\mappings.h" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\context.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\init.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\input.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\monitor.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\platform.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\vulkan.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\window.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\egl_context.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\osmesa_context.c" />
-    <ClInclude Include="D:\loran-project\KeyEngine\external\glfw\src\null_platform.h" />
-    <ClInclude Include="D:\loran-project\KeyEngine\external\glfw\src\null_joystick.h" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\null_init.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\null_monitor.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\null_window.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\null_joystick.c" />
-    <ClInclude Include="D:\loran-project\KeyEngine\external\glfw\src\win32_time.h" />
-    <ClInclude Include="D:\loran-project\KeyEngine\external\glfw\src\win32_thread.h" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\win32_module.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\win32_time.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\win32_thread.c" />
-    <ClInclude Include="D:\loran-project\KeyEngine\external\glfw\src\win32_platform.h" />
-    <ClInclude Include="D:\loran-project\KeyEngine\external\glfw\src\win32_joystick.h" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\win32_init.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\win32_joystick.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\win32_monitor.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\win32_window.c" />
-    <ClCompile Include="D:\loran-project\KeyEngine\external\glfw\src\wgl_context.c" />
+    <ClInclude Include="C:\loran-project\KeyEngine\external\glfw\include\GLFW\glfw3.h" />
+    <ClInclude Include="C:\loran-project\KeyEngine\external\glfw\include\GLFW\glfw3native.h" />
+    <ClInclude Include="C:\loran-project\KeyEngine\external\glfw\src\internal.h" />
+    <ClInclude Include="C:\loran-project\KeyEngine\external\glfw\src\platform.h" />
+    <ClInclude Include="C:\loran-project\KeyEngine\external\glfw\src\mappings.h" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\context.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\init.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\input.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\monitor.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\platform.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\vulkan.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\window.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\egl_context.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\osmesa_context.c" />
+    <ClInclude Include="C:\loran-project\KeyEngine\external\glfw\src\null_platform.h" />
+    <ClInclude Include="C:\loran-project\KeyEngine\external\glfw\src\null_joystick.h" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\null_init.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\null_monitor.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\null_window.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\null_joystick.c" />
+    <ClInclude Include="C:\loran-project\KeyEngine\external\glfw\src\win32_time.h" />
+    <ClInclude Include="C:\loran-project\KeyEngine\external\glfw\src\win32_thread.h" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\win32_module.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\win32_time.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\win32_thread.c" />
+    <ClInclude Include="C:\loran-project\KeyEngine\external\glfw\src\win32_platform.h" />
+    <ClInclude Include="C:\loran-project\KeyEngine\external\glfw\src\win32_joystick.h" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\win32_init.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\win32_joystick.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\win32_monitor.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\win32_window.c" />
+    <ClCompile Include="C:\loran-project\KeyEngine\external\glfw\src\wgl_context.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\loran-project\KeyEngine\build\ZERO_CHECK.vcxproj">
-      <Project>{0D289804-F972-303C-A618-81EE65B0BB3A}</Project>
+    <ProjectReference Include="C:\loran-project\KeyEngine\build\ZERO_CHECK.vcxproj">
+      <Project>{EF8B6CDE-629E-3847-84FA-56986C9EC0FD}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

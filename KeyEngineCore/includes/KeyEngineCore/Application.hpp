@@ -1,8 +1,10 @@
 // Защита от множественного включения заголовочного файла
 #pragma once
 
+// Включение заголовочного файла для событий из вашего движка
 #include "KeyEngineCore\Event.hpp"
 
+// Включение заголовочного файла для умных указателей
 #include <memory>
 
 // Объявление класса Application в пространстве имен KeyEngine
@@ -15,11 +17,10 @@ namespace KeyEngine {
 
 		// Конструктор по умолчанию
 		Application();
-
 		// Виртуальный деструктор
 		virtual ~Application();
 
-		// Запрет копирования и перемещения
+		// Запрет на копирования и перемещения
 		Application(const Application&) = delete;
 		Application(Application&&) = delete;
 		Application& operator = (const Application&) = delete;
@@ -32,9 +33,9 @@ namespace KeyEngine {
 		virtual void on_update() {}
 
 	private:
-		std::unique_ptr<class Window> m_pWindow;
+		std::unique_ptr<class Window> m_pWindow; // Уникальный указатель на окно приложения
 
-		EventDispatcher m_event_dispatcher;
-		bool m_bCloseWindow = false;
+		EventDispatcher m_event_dispatcher; // Диспетчер событий
+		bool m_bCloseWindow = false; // Флаг для закрытия окна
 	};
 }

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\loran-project\KeyEngine\build\CMakeFiles\5a4fbccd1d83df66a5abdcac6dd15f1a\INSTALL_force.rule">
+    <CustomBuild Include="C:\loran-project\KeyEngine\build\CMakeFiles\85af562a813dcf55f909df9de49e3769\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C4A3693A-4F64-37A7-B5F5-FC3D1405F3C5}</UniqueIdentifier>
+      <UniqueIdentifier>{E752FD05-84E3-3714-A41A-4730564F1E41}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

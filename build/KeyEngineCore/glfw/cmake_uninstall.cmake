@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "D:/loran-project/KeyEngine/build/KeyEngineCore/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"D:/loran-project/KeyEngine/build/KeyEngineCore/glfw/install_manifest.txt\"")
+if (NOT EXISTS "C:/loran-project/KeyEngine/build/KeyEngineCore/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/loran-project/KeyEngine/build/KeyEngineCore/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "D:/loran-project/KeyEngine/build/KeyEngineCore/glfw/install_manifest.txt" files)
+file(READ "C:/loran-project/KeyEngine/build/KeyEngineCore/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

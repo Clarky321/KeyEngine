@@ -1,36 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\loran-project\KeyEngine\KeyEngineCore\src\KeyEngineCore\Application.cpp">
+    <ClCompile Include="C:\loran-project\KeyEngine\KeyEngineCore\src\KeyEngineCore\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\loran-project\KeyEngine\KeyEngineCore\src\KeyEngineCore\Window.cpp">
+    <ClCompile Include="C:\loran-project\KeyEngine\KeyEngineCore\src\KeyEngineCore\Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\loran-project\KeyEngine\KeyEngineCore\includes\KeyEngineCore\Application.hpp">
+    <ClInclude Include="C:\loran-project\KeyEngine\KeyEngineCore\includes\KeyEngineCore\Application.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\loran-project\KeyEngine\KeyEngineCore\includes\KeyEngineCore\Log.hpp">
+    <ClInclude Include="C:\loran-project\KeyEngine\KeyEngineCore\includes\KeyEngineCore\Log.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\loran-project\KeyEngine\KeyEngineCore\includes\KeyEngineCore\Event.hpp">
+    <ClInclude Include="C:\loran-project\KeyEngine\KeyEngineCore\includes\KeyEngineCore\Event.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\loran-project\KeyEngine\KeyEngineCore\src\KeyEngineCore\Window.hpp">
+    <ClInclude Include="C:\loran-project\KeyEngine\KeyEngineCore\src\KeyEngineCore\Window.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\loran-project\KeyEngine\KeyEngineCore\CMakeLists.txt" />
+    <CustomBuild Include="C:\loran-project\KeyEngine\KeyEngineCore\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D3EEB5F3-AC21-3156-8218-2244310801EC}</UniqueIdentifier>
+      <UniqueIdentifier>{7029B152-220C-3D91-8FA3-7A88D2274E47}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FCF704C7-2710-31A8-99CF-3CA417BC07A0}</UniqueIdentifier>
+      <UniqueIdentifier>{B58F0DE0-950D-3135-A08C-54531D0FDBE3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

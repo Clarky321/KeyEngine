@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0B7497DC-67EE-3027-BA28-FAD7ABFFA858}</ProjectGuid>
+    <ProjectGuid>{D0E48A6E-8450-3214-A121-A98E7657C188}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\loran-project\KeyEngine\build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\loran-project\KeyEngine\build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KeyEngineEditor.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KeyEngineEditor</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\loran-project\KeyEngine\build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\loran-project\KeyEngine\build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KeyEngineEditor.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KeyEngineEditor</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\loran-project\KeyEngine\build\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\loran-project\KeyEngine\build\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">KeyEngineEditor.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">KeyEngineEditor</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\loran-project\KeyEngine\build\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\loran-project\KeyEngine\build\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">KeyEngineEditor.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">KeyEngineEditor</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -101,13 +101,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,13 +116,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\KeyEngineCore\Debug\KeyEngineCore.lib;..\KeyEngineCore\glfw\src\Debug\glfw3.lib;..\KeyEngineCore\spdlog\Debug\spdlogd.lib;..\KeyEngineCore\glad\Debug\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\KeyEngineCore\Debug\KeyEngineCore.lib;..\KeyEngineCore\spdlog\Debug\spdlogd.lib;..\KeyEngineCore\Debug\ImGui.lib;..\KeyEngineCore\glfw\src\Debug\glfw3.lib;..\KeyEngineCore\glad\Debug\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/loran-project/KeyEngine/build/KeyEngineEditor/Debug/KeyEngineEditor.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/loran-project/KeyEngine/build/bin/Debug/KeyEngineEditor.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/loran-project/KeyEngine/build/KeyEngineEditor/Debug/KeyEngineEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/loran-project/KeyEngine/build/bin/Debug/KeyEngineEditor.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +131,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -145,13 +146,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -159,13 +161,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\KeyEngineCore\Release\KeyEngineCore.lib;..\KeyEngineCore\glfw\src\Release\glfw3.lib;..\KeyEngineCore\spdlog\Release\spdlog.lib;..\KeyEngineCore\glad\Release\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\KeyEngineCore\Release\KeyEngineCore.lib;..\KeyEngineCore\spdlog\Release\spdlog.lib;..\KeyEngineCore\Release\ImGui.lib;..\KeyEngineCore\glfw\src\Release\glfw3.lib;..\KeyEngineCore\glad\Release\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/loran-project/KeyEngine/build/KeyEngineEditor/Release/KeyEngineEditor.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/loran-project/KeyEngine/build/bin/Release/KeyEngineEditor.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/loran-project/KeyEngine/build/KeyEngineEditor/Release/KeyEngineEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/loran-project/KeyEngine/build/bin/Release/KeyEngineEditor.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -174,7 +176,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -189,13 +191,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -203,13 +206,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\KeyEngineCore\MinSizeRel\KeyEngineCore.lib;..\KeyEngineCore\glfw\src\MinSizeRel\glfw3.lib;..\KeyEngineCore\spdlog\MinSizeRel\spdlog.lib;..\KeyEngineCore\glad\MinSizeRel\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\KeyEngineCore\MinSizeRel\KeyEngineCore.lib;..\KeyEngineCore\spdlog\MinSizeRel\spdlog.lib;..\KeyEngineCore\MinSizeRel\ImGui.lib;..\KeyEngineCore\glfw\src\MinSizeRel\glfw3.lib;..\KeyEngineCore\glad\MinSizeRel\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/loran-project/KeyEngine/build/KeyEngineEditor/MinSizeRel/KeyEngineEditor.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/loran-project/KeyEngine/build/bin/MinSizeRel/KeyEngineEditor.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/loran-project/KeyEngine/build/KeyEngineEditor/MinSizeRel/KeyEngineEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/loran-project/KeyEngine/build/bin/MinSizeRel/KeyEngineEditor.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -218,7 +221,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -232,13 +235,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\loran-project\KeyEngine\KeyEngineCore\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -246,13 +250,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\KeyEngineCore\RelWithDebInfo\KeyEngineCore.lib;..\KeyEngineCore\glfw\src\RelWithDebInfo\glfw3.lib;..\KeyEngineCore\spdlog\RelWithDebInfo\spdlog.lib;..\KeyEngineCore\glad\RelWithDebInfo\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\KeyEngineCore\RelWithDebInfo\KeyEngineCore.lib;..\KeyEngineCore\spdlog\RelWithDebInfo\spdlog.lib;..\KeyEngineCore\RelWithDebInfo\ImGui.lib;..\KeyEngineCore\glfw\src\RelWithDebInfo\glfw3.lib;..\KeyEngineCore\glad\RelWithDebInfo\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/loran-project/KeyEngine/build/KeyEngineEditor/RelWithDebInfo/KeyEngineEditor.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/loran-project/KeyEngine/build/bin/RelWithDebInfo/KeyEngineEditor.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/loran-project/KeyEngine/build/KeyEngineEditor/RelWithDebInfo/KeyEngineEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/loran-project/KeyEngine/build/bin/RelWithDebInfo/KeyEngineEditor.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -260,11 +264,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\loran-project\KeyEngine\KeyEngineEditor\CMakeLists.txt">
+    <CustomBuild Include="C:\loran-project\KeyEngine\KeyEngineEditor\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/loran-project/KeyEngine/KeyEngineEditor/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/loran-project/KeyEngine/KeyEngineEditor/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/loran-project/KeyEngine -BD:/loran-project/KeyEngine/build --check-stamp-file D:/loran-project/KeyEngine/build/KeyEngineEditor/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/loran-project/KeyEngine -BC:/loran-project/KeyEngine/build --check-stamp-file C:/loran-project/KeyEngine/build/KeyEngineEditor/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -273,11 +277,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\loran-project\KeyEngine\build\KeyEngineEditor\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\loran-project\KeyEngine\build\KeyEngineEditor\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/loran-project/KeyEngine/KeyEngineEditor/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/loran-project/KeyEngine/KeyEngineEditor/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/loran-project/KeyEngine -BD:/loran-project/KeyEngine/build --check-stamp-file D:/loran-project/KeyEngine/build/KeyEngineEditor/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/loran-project/KeyEngine -BC:/loran-project/KeyEngine/build --check-stamp-file C:/loran-project/KeyEngine/build/KeyEngineEditor/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -286,11 +290,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\loran-project\KeyEngine\build\KeyEngineEditor\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\loran-project\KeyEngine\build\KeyEngineEditor\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/loran-project/KeyEngine/KeyEngineEditor/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/loran-project/KeyEngine/KeyEngineEditor/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/loran-project/KeyEngine -BD:/loran-project/KeyEngine/build --check-stamp-file D:/loran-project/KeyEngine/build/KeyEngineEditor/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/loran-project/KeyEngine -BC:/loran-project/KeyEngine/build --check-stamp-file C:/loran-project/KeyEngine/build/KeyEngineEditor/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -299,11 +303,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\loran-project\KeyEngine\build\KeyEngineEditor\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\loran-project\KeyEngine\build\KeyEngineEditor\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/loran-project/KeyEngine/KeyEngineEditor/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/loran-project/KeyEngine/KeyEngineEditor/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/loran-project/KeyEngine -BD:/loran-project/KeyEngine/build --check-stamp-file D:/loran-project/KeyEngine/build/KeyEngineEditor/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/loran-project/KeyEngine -BC:/loran-project/KeyEngine/build --check-stamp-file C:/loran-project/KeyEngine/build/KeyEngineEditor/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -312,34 +316,38 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\loran-project\KeyEngine\build\KeyEngineEditor\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\loran-project\KeyEngine\build\KeyEngineEditor\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\loran-project\KeyEngine\KeyEngineEditor\src\main.cpp" />
+    <ClCompile Include="C:\loran-project\KeyEngine\KeyEngineEditor\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\loran-project\KeyEngine\build\ZERO_CHECK.vcxproj">
-      <Project>{0D289804-F972-303C-A618-81EE65B0BB3A}</Project>
+    <ProjectReference Include="C:\loran-project\KeyEngine\build\ZERO_CHECK.vcxproj">
+      <Project>{EF8B6CDE-629E-3847-84FA-56986C9EC0FD}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\loran-project\KeyEngine\build\KeyEngineCore\KeyEngineCore.vcxproj">
-      <Project>{252C0362-1BE3-35CC-99C9-352C06E29583}</Project>
+    <ProjectReference Include="C:\loran-project\KeyEngine\build\KeyEngineCore\ImGui.vcxproj">
+      <Project>{A6624ACE-A517-33F9-9397-C76335CA1D33}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\loran-project\KeyEngine\build\KeyEngineCore\KeyEngineCore.vcxproj">
+      <Project>{A2C045F5-65DE-3AD4-BD35-4F9923288D9E}</Project>
       <Name>KeyEngineCore</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\loran-project\KeyEngine\build\KeyEngineCore\glad\glad.vcxproj">
-      <Project>{DB9F9A58-C3E1-3160-8C34-6289F143C516}</Project>
+    <ProjectReference Include="C:\loran-project\KeyEngine\build\KeyEngineCore\glad\glad.vcxproj">
+      <Project>{59B30AC7-CA61-3088-A4D3-7AB1B656383D}</Project>
       <Name>glad</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\glfw.vcxproj">
-      <Project>{916A5B1D-72A5-3742-A411-FB212E0A0F63}</Project>
+    <ProjectReference Include="C:\loran-project\KeyEngine\build\KeyEngineCore\glfw\src\glfw.vcxproj">
+      <Project>{37A35184-E0F4-357B-81F6-D7BE747F48ED}</Project>
       <Name>glfw</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\loran-project\KeyEngine\build\KeyEngineCore\spdlog\spdlog.vcxproj">
-      <Project>{6603C2DC-0F9E-3224-80BF-E4F7762744C3}</Project>
+    <ProjectReference Include="C:\loran-project\KeyEngine\build\KeyEngineCore\spdlog\spdlog.vcxproj">
+      <Project>{2F7CA58C-38DE-3D04-AF4C-49A084651B51}</Project>
       <Name>spdlog</Name>
     </ProjectReference>
   </ItemGroup>

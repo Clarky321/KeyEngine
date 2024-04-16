@@ -1,6 +1,6 @@
-^D:\LORAN-PROJECT\KEYENGINE\KEYENGINEEDITOR\CMAKELISTS.TXT
+^C:\LORAN-PROJECT\KEYENGINE\KEYENGINEEDITOR\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/loran-project/KeyEngine -BD:/loran-project/KeyEngine/build --check-stamp-file D:/loran-project/KeyEngine/build/KeyEngineEditor/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/loran-project/KeyEngine -BC:/loran-project/KeyEngine/build --check-stamp-file C:/loran-project/KeyEngine/build/KeyEngineEditor/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

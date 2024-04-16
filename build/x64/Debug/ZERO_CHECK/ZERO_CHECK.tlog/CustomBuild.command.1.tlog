@@ -1,6 +1,6 @@
-^D:\LORAN-PROJECT\KEYENGINE\BUILD\CMAKEFILES\849F26F5DDAA1EE9AA4D002B6D6301B3\GENERATE.STAMP.RULE
+^C:\LORAN-PROJECT\KEYENGINE\BUILD\CMAKEFILES\55FC072CE7AD3DD5ECBE07E04EEC9F5E\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/loran-project/KeyEngine -BD:/loran-project/KeyEngine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/loran-project/KeyEngine/build/Project.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/loran-project/KeyEngine -BC:/loran-project/KeyEngine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/loran-project/KeyEngine/build/Project.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
