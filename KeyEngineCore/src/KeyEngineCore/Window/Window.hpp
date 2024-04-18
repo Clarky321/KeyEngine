@@ -60,6 +60,6 @@ namespace KeyEngine {
 		GLFWwindow* m_pWindow = nullptr; // Указатель на объект окна GLFW
 
 		WindowData m_data; // Данные окна
-		float m_background_color[4] = { 0.f, 0.f, 0.f, 0.f };
+		float m_background_color[4] = { 0.33f, 0.33f, 0.33f, 0.f };
 	};
 }
