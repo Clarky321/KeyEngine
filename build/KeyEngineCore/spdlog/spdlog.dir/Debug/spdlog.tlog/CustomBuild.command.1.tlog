@@ -1,0 +1,10 @@
+^C:\LORAN-PROJECT\KEYENGINE\EXTERNAL\SPDLOG\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/loran-project/KeyEngine -BC:/loran-project/KeyEngine/build --check-stamp-file C:/loran-project/KeyEngine/build/KeyEngineCore/spdlog/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
