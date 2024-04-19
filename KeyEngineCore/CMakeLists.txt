@@ -15,6 +15,7 @@ set(ENGINE_PRIVATE_INCLUDES
 	src/KeyEngineCore/Rendering/OpenGL/ShaderProgram/ShaderProgram.hpp
 	src/KeyEngineCore/Rendering/OpenGL/VertexBuffer/VertexBuffer.hpp
 	src/KeyEngineCore/Rendering/OpenGL/VertexArray/VertexArray.hpp
+	src/KeyEngineCore/Rendering/OpenGL/IndexBuffer/IndexBuffer.hpp
 )
 
 set(ENGINE_PRIVATE_SOURCES
@@ -23,6 +24,7 @@ set(ENGINE_PRIVATE_SOURCES
 	src/KeyEngineCore/Rendering/OpenGL/ShaderProgram/ShaderProgram.cpp
 	src/KeyEngineCore/Rendering/OpenGL/VertexBuffer/VertexBuffer.cpp
 	src/KeyEngineCore/Rendering/OpenGL/VertexArray/VertexArray.cpp
+	src/KeyEngineCore/Rendering/OpenGL/IndexBuffer/IndexBuffer.cpp
 )
 
 set(ENGINE_ALL_SOURCE

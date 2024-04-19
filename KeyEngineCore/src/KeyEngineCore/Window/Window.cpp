@@ -4,6 +4,7 @@
 #include "KeyEngineCore\Rendering\OpenGL\ShaderProgram\ShaderProgram.hpp"
 #include "KeyEngineCore\Rendering\OpenGL\VertexBuffer\VertexBuffer.hpp"
 #include "KeyEngineCore\Rendering\OpenGL\VertexArray\VertexArray.hpp"
+#include "KeyEngineCore\Rendering\OpenGL\IndexBuffer\IndexBuffer.hpp"
 
 #include <glad\glad.h>
 #include <GLFW\glfw3.h>
@@ -16,22 +17,15 @@ namespace  KeyEngine {
 
     static bool s_GLFW_initialized = false;
 
-    GLfloat points[] = {
-        0.0f,  0.5f, 0.0f,
-        0.5f, -0.5f, 0.0f,
-       -0.5f, -0.5f, 0.0f
-    };
-
-    GLfloat colors[] = {
-        1.0f, 0.0f, 0.0f,
-        0.0f, 1.0f, 0.0f,
-        0.0f, 0.0f, 1.0f,
-    };
-
-    GLfloat positions_colors[] = {
-        0.0f,  0.5f, 0.0f,   1.0f, 1.0f, 0.0f,
+    GLfloat positions_colors2[] = {
+       -0.5f, -0.5f, 0.0f,   1.0f, 1.0f, 0.0f,
         0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 1.0f,
-       -0.5f, -0.5f, 0.0f,   1.0f, 0.0f, 1.0f
+       -0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 1.0f,
+        0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f
+    };
+
+    GLuint indices[] = {
+        0, 1, 2, 3, 2, 1
     };
 
     const char* vertex_shader =
@@ -53,12 +47,9 @@ namespace  KeyEngine {
         "}";
 
     std::unique_ptr<ShaderProgram> p_shader_program;
-    std::unique_ptr<VertexBuffer> p_points_vbo;
-    std::unique_ptr<VertexBuffer> p_colors_vbo;
-    std::unique_ptr<VertexArray> p_vao_2buffers;
-
     std::unique_ptr<VertexBuffer> p_positions_colors_vbo;
-    std::unique_ptr<VertexArray> p_vao_1buffers;
+    std::unique_ptr<IndexBuffer> p_index_buffer;
+    std::unique_ptr<VertexArray> p_vao;
 
 	Window::Window(std::string title, const unsigned int width, const unsigned int height)
 		: m_data({ std::move(title), width, height })
@@ -160,23 +151,18 @@ namespace  KeyEngine {
 
         BufferLayout buffer_layout_1vec3{ ShaderDataType::Float3 };
 
-        p_vao_2buffers = std::make_unique<VertexArray>();
-        p_points_vbo = std::make_unique<VertexBuffer>(points, sizeof(points), buffer_layout_1vec3);
-        p_colors_vbo = std::make_unique<VertexBuffer>(colors, sizeof(colors), buffer_layout_1vec3);
-
-        p_vao_2buffers->add_buffer(*p_points_vbo);
-        p_vao_2buffers->add_buffer(*p_colors_vbo);
-
         BufferLayout buffer_layout_2vec3
         {
             ShaderDataType::Float3,
             ShaderDataType::Float3
         };
 
-        p_vao_1buffers = std::make_unique<VertexArray>();
-        p_positions_colors_vbo = std::make_unique<VertexBuffer>(positions_colors, sizeof(positions_colors), buffer_layout_2vec3);
+        p_vao = std::make_unique<VertexArray>();
+        p_positions_colors_vbo = std::make_unique<VertexBuffer>(positions_colors2, sizeof(positions_colors2), buffer_layout_2vec3);
+        p_index_buffer = std::make_unique<IndexBuffer>(indices, sizeof(indices) / sizeof(GLuint));
 
-        p_vao_1buffers->add_buffer(*p_positions_colors_vbo);
+        p_vao->add_vertex_buffer(*p_positions_colors_vbo);
+        p_vao->set_index_buffer(*p_index_buffer);
 
         return 0;
 	}
@@ -208,21 +194,10 @@ namespace  KeyEngine {
         ImGui::Begin("Background Color Window");
         ImGui::ColorEdit4("Background Color", m_background_color);
 
-        static bool use_2buffers = true;
-        ImGui::Checkbox("2 Buffers", &use_2buffers);
+        p_shader_program->bind();
+        p_vao->bind();
 
-        if (use_2buffers)
-        {
-            p_shader_program->bind();
-            p_vao_2buffers->bind();
-            glDrawArrays(GL_TRIANGLES, 0, 3);
-        }
-        else
-        {
-            p_shader_program->bind();
-            p_vao_1buffers->bind();
-            glDrawArrays(GL_TRIANGLES, 0, 3);
-        }
+        glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(p_vao->get_indices_count()), GL_UNSIGNED_INT, nullptr);
 
         ImGui::End();
 
