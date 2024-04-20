@@ -65,6 +65,11 @@ add_subdirectory(../external/glad ${CMAKE_CURRENT_BINARY_DIR}/glad)
 # Линковка с библиотекой GLAD
 target_link_libraries(${ENGINE_PROJECT_NAME} PRIVATE glad)
 
+# Добавление подмодуля GLM и его сборка
+add_subdirectory(../external/glm ${CMAKE_CURRENT_BINARY_DIR}/glm)
+# Линковка с библиотекой GLM
+target_link_libraries(${ENGINE_PROJECT_NAME} PRIVATE glm)
+
 
 
 set(IMGUI_INCLUDES
