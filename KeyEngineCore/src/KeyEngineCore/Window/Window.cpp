@@ -6,6 +6,8 @@
 #include "KeyEngineCore\Rendering\OpenGL\VertexArray\VertexArray.hpp"
 #include "KeyEngineCore\Rendering\OpenGL\IndexBuffer\IndexBuffer.hpp"
 
+#include "KeyEngineCore\Camera.hpp"
+
 #include <glad\glad.h>
 #include <GLFW\glfw3.h>
 
@@ -36,10 +38,11 @@ namespace  KeyEngine {
            layout(location = 0) in vec3 vertex_position;
            layout(location = 1) in vec3 vertex_color;
            uniform mat4 model_matrix;
+           uniform mat4 view_projection_matrix;
            out vec3 color;
            void main() {
               color = vertex_color;
-              gl_Position = model_matrix * vec4(vertex_position, 1.0);
+              gl_Position = view_projection_matrix * model_matrix * vec4(vertex_position, 1.0);
            })";
 
     const char* fragment_shader =
@@ -58,6 +61,12 @@ namespace  KeyEngine {
     float scale[3] = { 1.f, 1.f, 1.f };
     float rotate = 0.f;
     float translate[3] = { 0.f, 0.f, 0.f };
+
+    float camera_position[3] = { 0.f, 0.f, 1.f };
+    float camera_rotation[3] = { 0.f, 0.f, 0.f };
+    bool perspective_camera = false;
+
+    Camera camera;
 
 	Window::Window(std::string title, const unsigned int width, const unsigned int height)
 		: m_data({ std::move(title), width, height })
@@ -172,25 +181,6 @@ namespace  KeyEngine {
         p_vao->add_vertex_buffer(*p_positions_colors_vbo);
         p_vao->set_index_buffer(*p_index_buffer);
 
-        glm::mat3 mat_1(4, 0, 0, 2, 8, 1, 0, 1, 0);
-
-        glm::mat3 mat_2(4, 2, 9, 2, 0, 4, 1, 4, 2);
-
-        glm::mat3 result_mat = mat_1 * mat_2;
-
-        LOG_INFO("");
-        LOG_INFO("|{0:3} {1:3} {2:3}|", result_mat[0][0], result_mat[1][0], result_mat[2][0]);
-        LOG_INFO("|{0:3} {1:3} {2:3}|", result_mat[0][1], result_mat[1][1], result_mat[2][1]);
-        LOG_INFO("|{0:3} {1:3} {2:3}|", result_mat[0][2], result_mat[1][2], result_mat[2][2]);
-        LOG_INFO("");
-
-        glm::vec4 vec(1, 2, 3, 4);
-        glm::mat4 mat_identity(1);
-
-        glm::vec4 result_vec = mat_identity * vec;
-
-        LOG_INFO("({0} {1} {2} {3})", result_vec[0], result_vec[1], result_vec[2], result_vec[3]);
-
         return 0;
 	}
 
@@ -225,6 +215,10 @@ namespace  KeyEngine {
         ImGui::SliderFloat("rotate", &rotate, 0.f, 360.f);
         ImGui::SliderFloat3("translate", translate, -1.f, 1.f);
 
+        ImGui::SliderFloat3("camera position", camera_position, -10.f, 10.f);
+        ImGui::SliderFloat3("camera rotation", camera_rotation, 0, 360.f);
+        ImGui::Checkbox("Perspective camera", &perspective_camera);
+
         p_shader_program->bind();
 
         glm::mat4 scale_matrix(scale[0], 0,        0,        0,
@@ -233,7 +227,6 @@ namespace  KeyEngine {
                                0,        0,        0,        1);
 
         float rotate_in_radians = glm::radians(rotate);
-
         glm::mat4 rotate_matrix( cos(rotate_in_radians), sin(rotate_in_radians), 0, 0,
                                 -sin(rotate_in_radians), cos(rotate_in_radians), 0, 0,
                                  0,                      0,                      1, 0,
@@ -246,6 +239,12 @@ namespace  KeyEngine {
 
         glm::mat4 model_matrix = translate_matrix * rotate_matrix * scale_matrix;
         p_shader_program->setMatrix4("model_matrix", model_matrix);
+
+        camera.set_position_rotation(glm::vec3(camera_position[0], camera_position[1], camera_position[2]),
+                                     glm::vec3(camera_rotation[0], camera_rotation[1], camera_rotation[2]));
+        camera.set_projection_mode(perspective_camera ? Camera::ProjectionMode::Perspective : Camera::ProjectionMode::Orthographic);
+
+        p_shader_program->setMatrix4("view_projection_matrix", camera.get_projection_matrix() * camera.get_view_matrix());
 
         p_vao->bind();
 

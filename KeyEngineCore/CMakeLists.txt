@@ -8,10 +8,12 @@ set(ENGINE_PUBLIC_INCLUDES
 	includes/KeyEngineCore/Application.hpp
 	includes/KeyEngineCore/Log.hpp
 	includes/KeyEngineCore/Event.hpp
+	includes/KeyEngineCore/Camera.hpp
 )
 
 set(ENGINE_PRIVATE_INCLUDES
 	src/KeyEngineCore/Window/Window.hpp
+
 	src/KeyEngineCore/Rendering/OpenGL/ShaderProgram/ShaderProgram.hpp
 	src/KeyEngineCore/Rendering/OpenGL/VertexBuffer/VertexBuffer.hpp
 	src/KeyEngineCore/Rendering/OpenGL/VertexArray/VertexArray.hpp
@@ -21,6 +23,8 @@ set(ENGINE_PRIVATE_INCLUDES
 set(ENGINE_PRIVATE_SOURCES
 	src/KeyEngineCore/Application.cpp
 	src/KeyEngineCore/Window/Window.cpp
+	src/KeyEngineCore/Camera.cpp
+
 	src/KeyEngineCore/Rendering/OpenGL/ShaderProgram/ShaderProgram.cpp
 	src/KeyEngineCore/Rendering/OpenGL/VertexBuffer/VertexBuffer.cpp
 	src/KeyEngineCore/Rendering/OpenGL/VertexArray/VertexArray.cpp
